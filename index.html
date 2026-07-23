@@ -6,49 +6,111 @@
     <title>Loan & Buy & Hold</title>
 
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            max-width: 900px;
+            background: #f3f4f6;
+            color: #222;
+            max-width: 1000px;
             margin: 40px auto;
             padding: 20px;
         }
 
-        .card {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        .hero {
+            background: linear-gradient(135deg,#1e293b,#334155);
+            color: white;
+            padding: 40px;
+            border-radius: 16px;
+            margin-bottom: 25px;
         }
 
-        h1 {
-            text-align: center;
+        .hero h1 {
+            margin-bottom: 10px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin: 8px 0;
+        }
+
+        .strategy-step {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            padding: 12px;
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
 
-    <h1>Loan & Buy & Hold</h1>
-    <h2>信貸投資紀錄</h2>
+    <div class="hero">
+        <h1>Loan & Buy & Hold</h1>
+        <p>信貸投資公開紀錄</p>
+        <p>追蹤槓桿成本、資產配置與長期績效</p>
+    </div>
 
     <div class="card">
-        <h3>貸款資訊</h3>
+        <h2>① 信貸概況</h2>
         <p>貸款金額：NT$300,000</p>
-        <p>優惠利率（第1年）：10%</p>
+        <p>優惠利率（第1年）：10.00%</p>
         <p>原始利率：12.02%</p>
+        <p>原始開辦費：NT$9,000</p>
+        <p>開辦費優惠：NT$6,000</p>
         <p>實際開辦費：NT$3,000</p>
         <p>貸款期間：10年</p>
+        <p>轉貸規劃：綁約1年後轉貸降息</p>
     </div>
 
     <div class="card">
-        <h3>ETF 持倉</h3>
-        <p>尚未建立</p>
+        <h2>② 資金配置</h2>
+        <p>總資金：NT$300,000</p>
+        <br>
+        <p><strong>ETF 底倉</strong>：NT$100,000</p>
+        <p><strong>Cloud Bank</strong>：NT$100,000（2.085%）</p>
+        <p><strong>USDC / Huma Finance</strong>：NT$100,000（12%）</p>
     </div>
 
     <div class="card">
-        <h3>投資績效</h3>
-        <p>尚未建立</p>
+        <h2>③ 投資策略</h2>
+
+        <div class="strategy-step">
+            第一份資金：10萬元建立 ETF 底倉
+        </div>
+
+        <div class="strategy-step">
+            第二份資金：10萬元存放 Cloud Bank，維持流動性
+        </div>
+
+        <div class="strategy-step">
+            第三份資金：10萬元換成 USDC，配置於 Huma Finance
+        </div>
+
+        <div class="strategy-step">
+            當市場大幅回檔時，再逐步投入保留資金
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>④ 投資績效</h2>
+        <p>目前投入金額：尚未建立</p>
+        <p>目前市值：尚未建立</p>
+        <p>累積報酬率：尚未建立</p>
     </div>
 
 </body>
